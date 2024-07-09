@@ -19,6 +19,14 @@ To get started with this template, please follow the instructions in the respect
 - [Backend README](./backend/README.md)
 
 
+###PREREQUISITE
+
+  - Azure Ubuntu Server with necesssary ports opened.
+  - Dockerfile for both frontend and backend
+  - Nginx Proxy Manager
+  - SSL Certificate
+  - Domain name
+
 ##STAGE ONE: THE BACKEND
 
 **1. CLONE THE REPO**
