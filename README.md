@@ -505,6 +505,7 @@ sudo systemctl status docker
 E. Installing `docker-compose`
 ```bash
 curl -s https://api.github.com/repos/docker/compose/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")'
+sudo apt install docker-compose -y
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
